@@ -1,0 +1,84 @@
+{{ printf "<!DOCTYPE html>" | safeHTML }}
+<!--[if lt IE 7]>      {{ printf "<html class=\"no-js lt-ie9 lt-ie8 lt-ie7\">" | safeHTML }} <![endif]-->
+<!--[if IE 7]>         {{ printf "<html class=\"no-js lt-ie9 lt-ie8\">" | safeHTML }} <![endif]-->
+<!--[if IE 8]>         {{ printf "<html class=\"no-js lt-ie9\">" | safeHTML }} <![endif]-->
+<!--[if gt IE 8]>      {{ printf "<html class=\"no-js\">" | safeHTML }} <![endif]-->
+<html>
+    <head>
+        {{ partial "head.html" .}}
+        <link rel="stylesheet" href="/css/leaflet.css">
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/icomoon.css">
+        <link rel="stylesheet" href="/css/simple-line-icons.css">
+        <link rel="stylesheet" href="/css/magnific-popup.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/custom1.css">
+        <link rel="stylesheet" href="/css/custom2.css">
+    </head>
+    <body>
+        {{ partial "navmini.html" .}}
+
+        <section id="exams">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading">
+                        <br><br><br><center><h2>Examens</h2></center>
+                        <p>
+                            Préparez-vous pour les examens internationaux de langue avec notre programme complet.
+                            Nous offrons une préparation approfondie pour les examens suivants :
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="{{ .Site.BaseURL }}images/exams/bulats.jpg" alt="Logo BULATS" style="width: 50%;">
+                        <p>
+                            Le BULATS (Business Language Testing Service) est un examen qui évalue les compétences
+                            linguistiques en anglais pour le domaine des affaires. Il mesure les compétences en
+                            compréhension écrite et orale, ainsi qu'en production écrite et orale.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{ .Site.BaseURL }}images/exams/ielts1.jpg" alt="Logo IELTS" style="width: 50%;">
+                        <p>
+                            L'IELTS (International English Language Testing System) est un examen de langue anglaise
+                            qui évalue les compétences en anglais des candidats non anglophones. Il mesure les compétences
+                            en compréhension écrite, compréhension orale, production écrite et production orale.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{ .Site.BaseURL }}images/exams/toeic.jpg" alt="Logo TOEIC" style="width: 50%;">
+                        <p>
+                            Le TOEIC (Test of English for International Communication) est un examen d'anglais qui évalue
+                            les compétences linguistiques en anglais dans un contexte professionnel. Il mesure les compétences
+                            en compréhension écrite et orale.
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-md-offset-4">
+                        <img src="{{ .Site.BaseURL }}images/exams/toefl1.jpg" alt="Logo TOEFL" style="width: 50%;">
+                        <p>
+                            Le TOEFL (Test of English as a Foreign Language) est un examen qui évalue les compétences
+                            en anglais des étudiants non anglophones souhaitant étudier dans des universités anglophones.
+                            Il mesure les compétences en compréhension écrite, compréhension orale, production écrite et
+                            production orale.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    
+        {{ if .Site.Params.footer.enable }}
+            {{ partial "footer.html" .}}
+        {{ end }}
+
+        {{ partial "jsmini.html" .}}
+
+        <footer>
+            <!-- Footer content -->
+        </footer>
+
+        <script src="/js/script.js"></script>
+    </body>
+</html>

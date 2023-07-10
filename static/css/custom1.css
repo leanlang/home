@@ -1,0 +1,34 @@
+.about-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-items img {
+    width: 100px; /* Adjust the width as per your requirement */
+    height: 100px; /* Adjust the height as per your requirement */
+    object-fit: cover;
+    border-radius: 50%;
+  }
+ 
+  
+  #working
+  
+  #fh5co-about .fh5co-person .fh5co-position {
+    color: #120404 !important; /* Darker color */
+  }
+
+  .center-logo {
+    text-align: center;
+}
+
+  
+
+  
+
+
+
+
+  
+  

@@ -1,0 +1,54 @@
+{{ printf "<!DOCTYPE html>" | safeHTML }}
+
+<!--[if lt IE 7]>      {{ printf "<html class=\"no-js lt-ie9 lt-ie8 lt-ie7\">" | safeHTML }} <![endif]-->
+<!--[if IE 7]>         {{ printf "<html class=\"no-js lt-ie9 lt-ie8\">" | safeHTML }} <![endif]-->
+<!--[if IE 8]>         {{ printf "<html class=\"no-js lt-ie9\">" | safeHTML }} <![endif]-->
+<!--[if gt IE 8]>      {{ printf "<html class=\"no-js\">" | safeHTML }} <![endif]-->
+<html>
+    <head>
+        {{ partial "head.html" .}}
+        <link rel="stylesheet" href="/css/leaflet.css">
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/icomoon.css">
+        <link rel="stylesheet" href="/css/simple-line-icons.css">
+        <link rel="stylesheet" href="/css/magnific-popup.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/custom1.css">
+        <link rel="stylesheet" href="/css/custom2.css">
+    </head>
+    <body>
+        {{ partial "navmini.html" .}}
+
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-heading" style="color: black !important;">
+                        <br><br><br><center><h2>Coaching et Préparation de Présentations</h2></center>
+                        <p>
+                            Nous proposons des services de coaching et de préparation de présentations haut niveau adaptés à divers domaines d'expérience, tels que l'immobilier, la cybersécurité et l'aviation. Notre équipe expérimentée crée des supports visuels et des contenus textuels personnalisés pour chaque domaine, en mettant l'accent sur la clarté, l'impact et l'engagement du public.
+                        </p>
+                        <p>
+                            Que vous ayez besoin de préparer une présentation pour une conférence, une réunion d'affaires ou une formation, nous travaillerons avec vous pour comprendre vos objectifs, votre public cible et vos messages clés. Ensuite, nous développerons un contenu percutant et des supports visuels attrayants qui renforceront votre message et captiveront votre auditoire.
+                        </p>
+                        <p>
+                            Notre approche professionnelle et notre expertise dans différents domaines nous permettent de fournir des services de coaching et de préparation de présentations de haute qualité. Nous sommes passionnés par l'aide aux professionnels pour qu'ils puissent communiquer de manière efficace et convaincante, et nous nous engageons à vous aider à atteindre vos objectifs de présentation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        {{ if .Site.Params.footer.enable }}
+            {{ partial "footer.html" .}}
+        {{ end }}
+    
+        {{ partial "jsmini.html" .}}
+    
+        <footer>
+            <!-- Footer content -->
+        </footer>
+    
+        <script src="/js/script.js"></script>
+    </body>
+</html>
