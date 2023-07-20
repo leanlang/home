@@ -13,8 +13,8 @@ theme = "hugo-elate-theme"
 
   # Meta
   author = "Sara Senobari"
-description = "Website for language courses and program management"
-email = "info@leanlang.com"
+description = "Language courses and program management in Paris"
+email = "sara.senobarii@yahoo.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
@@ -78,7 +78,7 @@ subtitle = "Apprenez l'anglais professionnel et réussissez vos examens de langu
   [[params.intro.item]]
 title = "Méthodologie de travail avec empathie"
 description = "Notre approche se base sur l'empathie envers nos clients. Nous comprenons leurs besoins spécifiques, leurs défis et leurs objectifs, et nous nous engageons à fournir des solutions personnalisées qui répondent à leurs attentes."
-url = "mailto:info@leanlang.com"
+url = "mailto:sara.senobarii@yahoo.com"
 button = "Nous contacter"
 icon = "icon-bulb"
 img = "img_7.jpg"
@@ -87,7 +87,7 @@ img = "img_7.jpg"
   [[params.intro.item]]
 title = "Enseignement et Gestion Innovants"
 description = "Chez nous, nous privilégions l'innovation dans l'enseignement et la gestion. Nous offrons des services aussi bien à distance qu'en présentiel pour répondre aux besoins de chacun. Notre objectif est de fournir un environnement d'apprentissage flexible, sans compromettre l'efficacité ni la qualité. Rejoignez-nous dans ce voyage passionnant pour redéfinir l'éducation et la gestion."
-url = "mailto:info@leanlang.com"
+url = "mailto:sara.senobarii@yahoo.com"
 button = "Cliquez ici"
 icon = "icon-desktop"
 img = "img_8.jpg"
@@ -95,7 +95,7 @@ img = "img_8.jpg"
 [[params.intro.item]]
 title = "Préparation aux Examens"
 description = "Nous sommes spécialisés dans la préparation aux examens, avec une équipe d'examinateurs certifiés à votre disposition. Nous vous fournissons une préparation approfondie et ciblée pour vous assurer que vous êtes bien équipé pour réussir vos examens. Notre équipe expérimentée vous guide à travers le processus, en mettant l'accent sur les domaines clés et en fournissant des conseils stratégiques pour maximiser votre performance. Avec nous, vous pouvez avoir confiance dans votre préparation."
-url = "mailto:info@leanlang.com"
+url = "mailto:sara.senobarii@yahoo.com"
 button = "Pourquoi nous ?"
 icon = "icon-flag"
 img = "img_10.jpg"
