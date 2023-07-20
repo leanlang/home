@@ -5,7 +5,6 @@ languageCode = "en-us"
 theme = "hugo-elate-theme"
 
 
-
 [params]
  # logo = "logo/leanlang.png"
   custom_css = ["css/custom1.css", "css/custom2.css"]
